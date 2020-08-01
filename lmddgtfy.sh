@@ -26,7 +26,12 @@ function out::suc {
 # 2 <~> ftp
 
 PROTO=0
-PROTOS=("https://" "http://" "ftp://")
+PROTOS=\
+(
+"https://"
+"http://"
+"ftp://"
+)
 
 # Search services
 # 0 <~> DDG
