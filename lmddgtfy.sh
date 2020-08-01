@@ -39,6 +39,11 @@ PROTOS=("https://" "http://")
 # 8 <~> Yandex
 # 9 <~> Baidu
 #10 <~> Ecogine
+#11 <~> Aol
+#12 <~> Excite
+#13 <~> WolframAlpha
+#14 <~> GitHub
+#15 <~> YouTube
 
 URL=0
 URLS=\
@@ -54,6 +59,11 @@ URLS=\
 'yandex.com/search?text='
 'baidu.com/s?wd='
 'ecogine.org?q='
+'search.aol.com/aol/search?q='
+'excite.com/serp?q='
+'wolframalpha.com/input/?i='
+'github.com/search?q='
+'youtube.com/results?search_query='
 )
 
 # Final URL
