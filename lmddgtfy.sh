@@ -34,23 +34,25 @@ PROTOS=\
 )
 
 # Search services
-# 0 <~> DDG
-# 1 <~> DDG Lite
-# 2 <~> PrivateNet Searx
-# 3 <~> Google
-# 4 <~> StartPage
-# 5 <~> Bing
-# 6 <~> Qwant
-# 7 <~> Yahoo
-# 8 <~> Yandex
-# 9 <~> Baidu
-#10 <~> Ecogine
-#11 <~> Aol
-#12 <~> Excite
-#13 <~> WolframAlpha
-#14 <~> GitHub
-#15 <~> YouTube
-#16 <~> WebCrawler
+#  0 <~> DDG
+#  1 <~> DDG Lite
+#  2 <~> PrivateNet Searx
+#  3 <~> Google
+#  4 <~> Startpage
+#  5 <~> Bing
+#  6 <~> Qwant
+#  7 <~> Yahoo
+#  8 <~> Yandex
+#  9 <~> Baidu
+# 10 <~> Ecogine
+# 11 <~> Aol
+# 12 <~> Excite
+# 13 <~> Wolfram Alpha
+# 14 <~> GitHub
+# 15 <~> YouTube
+# 16 <~> WebCrawler
+# 17 <~> Vimeo
+# 18 <~> The Pirate Bay
 
 URL=0
 
@@ -73,6 +75,9 @@ URLS=\
 'github.com/search?q='
 'youtube.com/results?search_query='
 'webcrawler.com/serp?q='
+'vimeo.com/search?q='
+'thepiratebay.org/search.php?q='
+
 )
 
 # Final URL
