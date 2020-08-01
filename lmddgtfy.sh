@@ -23,9 +23,10 @@ function out::suc {
 # Protocols
 # 0 <~> https
 # 1 <~> http
+# 2 <~> ftp
 
 PROTO=0
-PROTOS=("https://" "http://")
+PROTOS=("https://" "http://" "ftp://")
 
 # Search services
 # 0 <~> DDG
@@ -44,8 +45,10 @@ PROTOS=("https://" "http://")
 #13 <~> WolframAlpha
 #14 <~> GitHub
 #15 <~> YouTube
+#16 <~> WebCrawler
 
 URL=0
+
 URLS=\
 (
 'duckduckgo.com?q='
@@ -64,6 +67,7 @@ URLS=\
 'wolframalpha.com/input/?i='
 'github.com/search?q='
 'youtube.com/results?search_query='
+'webcrawler.com/serp?q='
 )
 
 # Final URL
@@ -72,4 +76,4 @@ FINAL="${PROTOS[$PROTO]}${URLS[$URL]}$(tr " " "+" <<<"${1}")"
 
 echo "${FINAL}"
 
-out::suc "Finished"
+# out::suc "Finished"
